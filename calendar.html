@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Upcoming Events</title>
+	<script src="https://kit.fontawesome.com/f35b0ea4f2.js" crossorigin="anonymous"></script>
+	<style>
+		.navbar{
+			width:100%;
+			background-color:#C42023;
+			overflow:auto;
+		}
+		.navbar a{
+			float:left;
+			text-align:center;
+			padding:15px;
+			color:white;
+			text-decoration:none;
+			font-size:20px;
+			
+		}
+		.navbar a:hover {
+			background-color:black;
+		}
+		.active{
+			background-color: black;
+		}
+		@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+	</style>
+</head>
+
+<body>
+	<div class="navbar">
+	<a href="Home.html"><i class="fas fa-home"></i>Home</a>
+		<a href="leaderboard.php"><i class="fas fa-chart-line"></i> Leaderboard </a>
+		<a href="calendar.html">Upcoming Events</a>
+		<a href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+	</div>
+	<br></br>
+<div style="padding-left: 25%;">
+								<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23D50000&amp;ctz=Asia%2FKarachi&amp;src=aGFtemFoLnphaGlkMjJAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=Y2xhc3Nyb29tMTE1NjYxNjI3MTA3MjAyNzQ1NTgzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=ZW4ucGsjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237986CB&amp;color=%2333B679&amp;color=%23202124&amp;color=%230B8043" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no">
+	</iframe>
+	</div>
+</body>
+</html>
